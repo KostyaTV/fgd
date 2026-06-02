@@ -1,0 +1,19 @@
+pervoe_chislo = int(input("Введите первое число: "))
+
+while True:
+    vtoroe_chislo = int(input("Введите второе число: "))
+
+    if vtoroe_chislo > pervoe_chislo:
+        break
+    else:
+        print("Ошибка. Второе число должно быть больше первого")
+
+while True:
+    tretye_chislo = int(input("Введите третье число: "))
+
+    if tretye_chislo > vtoroe_chislo:
+        break
+    else:
+        print("Ошибка. Третье число должно быть больше второго")
+
+print("Последовательность принята")
