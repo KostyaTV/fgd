@@ -1,0 +1,12 @@
+bolshoe_chislo = 0
+
+while True:
+    natural_chislo = int(input("Введите натуральное число: "))
+
+    if natural_chislo > bolshoe_chislo:
+        bolshoe_chislo = natural_chislo
+
+    if natural_chislo == 0:
+        break
+
+print("Самое большое число:", bolshoe_chislo)
